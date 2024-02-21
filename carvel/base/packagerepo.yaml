@@ -6,6 +6,6 @@ metadata:
 spec:
   fetch:
     git:
-      url: https://github.com/doddatpivotal/acme-fitness-package-repo
+      url: https://github.com/bkirkware/acme-fitness-package-repo
       ref: origin/main
       subPath: package-repo
