@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: guestbook-ui
+  labels:
+    vmware.com/client: client-1
+    vmware.com/region: west
+    vmware.com/app: app-1-guestbook
+    app.kubernetes.io/part-of: guestbook-ui
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: guestbook-ui

@@ -1,0 +1,7 @@
+apiVersion: secretgen.carvel.dev/v1alpha1
+kind: SecretImport
+metadata:
+  name: platform-values
+  namespace: package-installs
+spec:
+  fromNamespace: platform
